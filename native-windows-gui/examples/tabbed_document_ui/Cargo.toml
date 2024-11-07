@@ -1,0 +1,10 @@
+[package]
+name = "tabbed_document_ui"
+authors = ["Dominic Clifton <me@dominicclifton.name>"]
+
+[dependencies]
+native-windows-gui = { path = "../../", default-features=false, features = [
+    "frame",
+    "flexbox",
+    "tabs",
+    "status-bar"]}
